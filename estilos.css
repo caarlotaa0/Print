@@ -27,3 +27,46 @@ a{
   margin-left: 10px;
 }
 
+.card{
+    width: 30%;
+    color: rgb(92, 12, 12);
+    background: rgba(231, 228, 136, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* secció nova */
+.boxshadow-seccio{
+    padding: 40px;
+}
+
+.boxshadow-seccio h2{
+    color: rgb(92, 12, 12);
+    margin-bottom: 20px;
+}
+
+.caixes-horitzontals{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.caixa-shadow{
+    width: 30%;
+    padding: 20px;
+    background: rgba(235, 231, 138, 0.8);
+    color: rgb(92, 12, 12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ombra1{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ombra2{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.ombra3{
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
