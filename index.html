@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap (opcional) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="estilos.css">
     <title>Carlota Vila</title>
 </head>
+
 <body>
 
 <header class="cabecera">
     <div class="container barra-navegacion">
-        <a class="logo" href="#">¿Que es el abuso sexual?</a>
 
-        <!-- BOTÓN -->
+        <a class="logo" href="#">¿Qué es el abuso sexual?</a>
+
         <button class="hamburguesa" onclick="toggleMenu()">☰</button>
 
-        <!-- MENÚ -->
         <nav class="enlaces-navegacion" id="menu">
+
             <a href="#info" onclick="toggleMenu()">Info</a>
             <a href="#testimonios" onclick="toggleMenu()">Testimonios</a>
-            <a href="#videos" onclick="toggleMenu()">Videos</a>
-            <a href="#TuExperiencia" onclick="toggleMenu()">Tu experiencia</a>
+            <a href="#experiencia" onclick="toggleMenu()">Tu experiencia</a>
+
         </nav>
+
     </div>
 </header>
 
@@ -35,30 +36,160 @@
 <section id="Videos" class="seccion"></section>
 <section id="TuExperiencia" class="seccion"></section>
 
-<section class="boxshadow-seccio">
-    <h2 class="tituloIndex">¿Que se considera agresión sexual?</h2>
+<section class="boxshadow-seccio info">
+
+    <h2 class="tituloIndex" id="info">¿Qué se considera agresión sexual?</h2>
 
     <div class="cajas-horitzontales">
-        <div class="caja-shadow sombra">Contacto físico sexual</div>
-        <div class="caja-shadow sombra">Actos sexuales sin penetración</div>
-        <div class="caja-shadow sombra">Penetración (violación)</div>
+         <div class="caja-shadow titulo1 sombra">
+            <h3>Contacto físico sexual</h3>
+
+            <div class="contenido caja1">
+                <p>
+                    –	Tocamientos en partes íntimas (genitales, pecho, glúteos) <br>
+                    –	Besos forzados <br>
+                    –	Rozamientos con intención sexual <br>
+                    –	Abrazos o acercamientos con finalidad sexual
+                </p>
+            </div>
+        </div>
+
+        <div class="caja-shadow titulo2 sombra">
+            <h3>Actos sexuales sin penetración</h3>
+
+            <div class="contenido caja2">
+                <p>
+                    –	Obligar a otra persona a realizar actos sexuales <br>
+                    –	Masturbación forzada (propia o ajena) <br>
+                    –	Cualquier interacción sexual sin consentimiento 
+                </p>
+            </div>
+        </div>
+
+        <div class="caja-shadow titulo3 sombra">
+            <h3>Penetración (violación)</h3>
+
+            <div class="contenido caja3">
+                <p>
+                    –	Penetración vaginal, anal o bucal <br>
+                    –	Introducción de objetos con finalidad sexual
+                </p>
+            </div>
+        </div>
+
     </div>
 
     <div class="cajas-horitzontales">
-        <div class="caja-shadow sombra">Actos sexuales sin contacto físico directo</div>
-        <div class="caja-shadow sombra">Actos cuando no hay consentimiento válido</div>
-        <div class="caja-shadow sombra">Uso de la imagen con finalidad sexual</div>
+         <div class="caja-shadow titulo4 sombra">
+            <h3>Actos sexuales sin contacto físico directo</h3>
+
+            <div class="contenido caja4">
+                <p>
+                    –	Obligar a desnudarse <br>
+                    –	Obligar a presenciar actos sexuales <br>
+                    –	Obligar a realizar actos sexuales delante de otro
+                </p>
+            </div>
+        </div>
+
+        <div class="caja-shadow titulo5 sombra">
+            <h3>Actos cuando no hay consentimiento válido</h3>
+
+            <div class="contenido caja5">
+                <p>
+                    –	Actos con una persona dormida o inconsciente <br>
+                    –	Actos con alguien bajo efectos de alcohol o drogas que impiden decidir 
+                </p>
+            </div>
+        </div>
+
+        <div class="caja-shadow titulo6 sombra">
+            <h3>Uso de la imagen con finalidad sexual</h3>
+
+            <div class="contenido caja6">
+                <p>
+                    –	Obligar a hacerse fotos o vídeos de carácter sexual
+                </p>
+            </div>
+        </div>
+
     </div>
+
 </section>
+
+
+
+<section class="boxshadow-seccio testimonios">
+
+    <h2 class="tituloIndex" id="testimonios">Testimonios</h2>
+
+    <div class="carousel">
+
+        <button class="btn" id="prev">❮</button>
+
+        <div class="viewport">
+
+            <div class="slide activo chica1">
+                <img src="img/Carla.jpg">
+                <p class="relato rel1">
+                    Testimonio de Carla- 19 años:<br> <br>
+                    “Nos persiguieron hasta mi casa y nos <br> empezaron a tocar por todos lados, yo solo <br> sentía un montón de manos”.
+                </p>
+            </div>
+
+            <div class="slide chica2">
+                <img src="img/Laia.jpg">
+                <p class="relato rel2">
+                    Testimonio de Laia- 20 años:<br> <br>
+                    “Me encerraron en el baño, <br> se pusieron a hacer cosas delante de mí <br> y me dijeron que el problema era yo.”
+                </p>
+            </div>
+
+            <div class="slide chica3">
+                <img src="img/Samanta.jpg">
+                <p class="relato rel3">
+                    Testimonio de Samanta-18 años:<br> <br>
+                    “Mi primo abuso de mi y mi familia <br> me dio la espalda y apoyó a el… <br>como si yo no fuera también familia.”
+                </p>
+            </div>
+
+        </div>
+
+        <button class="btn" id="next">❯</button>
+
+    </div>
+
+</section>
+
+
+
+<section class="boxshadow-seccio TuExperiencia">
+
+    <h2 class="tituloIndex" id="experiencia">Tu experiencia</h2>
+
+    <p class="texto-experiencia">
+        Cuéntanos tu experiencia. Si quieres compartir algo o necesitas apoyo, puedes escribirlo aquí.
+    </p>
+
+    <div class="formulario-experiencia">
+
+        <textarea placeholder="Escribe tu experiencia..."></textarea>
+
+        <input type="email" placeholder="Tu correo electrónico">
+
+        <a class="btn-enviar" href="mailto:cavibo2006@gmail.com">
+            Enviar
+        </a>
+
+    </div>
+
+</section>
+
 
 <footer class="pie"></footer>
 
 
-<script>
-function toggleMenu() {
-    document.getElementById("menu").classList.toggle("activo");
-}
-</script>
-
 </body>
+
+<script src="script.js"></script>
 </html>
